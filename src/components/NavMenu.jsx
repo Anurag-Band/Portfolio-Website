@@ -2,7 +2,6 @@ import React from "react";
 import NextLink from "next/link";
 import { useRouter } from "next/router";
 import siteMetadata from '@/data/siteMetaData';
-import Link from "next/link";
 
 function NavItem({ href, name }) {
   const router = useRouter();
@@ -28,7 +27,7 @@ function NavItem({ href, name }) {
 
 const NavMenu = () => {
   return (
-    <nav className="flex items-center">
+    <nav className="hidden lg:flex items-center">
       {siteMetadata.siteNavLinks.map((link, index) => (
         <NavItem
           key={index}

@@ -3,10 +3,11 @@ import Image from "next/image";
 import ProfilePic from "../../public/assets/profile-pic.png";
 import Link from "next/link";
 import NavMenu from "./NavMenu";
+import MobileNavbar from "./MobileNavbar";
 
 const Header = () => {
   return (
-    <header className="bg-white flex items-center px-10 py-3 fixed top-0 w-full">
+    <header className="bg-white flex items-center px-10 py-3 sticky top-0 w-full">
       <div className="flex items-center justify-between w-full">
         {/* Left Section */}
         <Link
@@ -19,10 +20,11 @@ const Header = () => {
             width={60}
             height={60}
           />
-          <p className="text-slate-600 text-3xl font-mainHeading tracking-wider">ANURAG BAND</p>
+          <p className="text-slate-600 text-3xl font-mainHeading tracking-wider hidden lg:block">ANURAG BAND</p>
         </Link>
         {/* Right Section */}
         <NavMenu />
+        <MobileNavbar />
       </div>
     </header>
   );

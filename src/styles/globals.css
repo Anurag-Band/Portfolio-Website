@@ -7,3 +7,27 @@
 * {
     scroll-behavior: smooth;
 }
+
+@layer components {
+    .hideMenuNav {
+        display: none;
+    }
+    .showMenuNav {
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        top: 45px;
+        right: -39px;
+        background: white;
+        z-index: 10;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-bottom: 12rem;
+    }
+
+    .showMenuNav > * {
+        font-size: 32px;
+    }
+}
