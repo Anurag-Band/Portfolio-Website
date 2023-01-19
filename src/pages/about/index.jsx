@@ -42,7 +42,7 @@ const About = () => {
         </div>
         <div className="flex flex-col-reverse md:flex-row container mx-auto px-5 xl:px-28 py-5 xl:py-14 w-full font-handwriting text-xl text-slate-700 tracking-wider break-words">
           {/* Left Section */}
-          <div className="w-full mt-5 md:mt-0 md:w-1/2 space-y-10">
+          <div className="w-full mt-5 md:mt-0 md:w-1/2 space-y-8">
             <h3>Let you Know About Me,</h3>
             <p>
               I am Anurag, a Full Stack Developer, creative coder, and
@@ -75,6 +75,11 @@ const About = () => {
                   href={siteMetadata.socials.github}
                 />
               }.
+            </p>
+            <p>
+            I&#39;m open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don&#39;t hesitate to contact me.
+
+
             </p>
           </div>
           {/* Right Section */}
