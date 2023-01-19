@@ -4,6 +4,7 @@ import ProfilePic from "../../../public/assets/about-pic.jpg";
 import Head from "next/head";
 import Link from "next/link";
 import { BsGithub, BsInstagram, BsLinkedin, BsTwitter } from "react-icons/bs";
+import { SiGmail } from "react-icons/si";
 import siteMetadata from "@/data/siteMetaData";
 
 const CustomLink = ({ name, href }) => {
@@ -38,7 +39,9 @@ const About = () => {
             ABOUT ME
           </h2>
           <hr className="border border-b-4 border-b-teal-500 w-14" />
-          <p className="font-mainHeading text-2xl tracking-widest uppercase p-5 font-medium text-teal-500">helping start-ups to grow their product in terms of technology</p>
+          <p className="font-mainHeading text-2xl tracking-widest uppercase p-5 font-medium text-teal-500">
+            helping start-ups to grow their product in terms of technology
+          </p>
         </div>
         <div className="flex flex-col-reverse md:flex-row container mx-auto px-5 xl:px-28 py-5 xl:py-14 w-full font-handwriting text-xl text-slate-700 tracking-wider break-words">
           {/* Left Section */}
@@ -74,26 +77,27 @@ const About = () => {
                   name={"Github"}
                   href={siteMetadata.socials.github}
                 />
-              }.
+              }
+              .
             </p>
             <p>
-            I&#39;m open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don&#39;t hesitate to contact me.
-
-
+              I&#39;m open to Job opportunities where I can contribute, learn
+              and grow. If you have a good opportunity that matches my skills
+              and experience then don&#39;t hesitate to contact me.
             </p>
           </div>
           {/* Right Section */}
           <div className="w-full md:w-1/2 flex flex-row md:flex-col">
             {/* Right Upper Section */}
-              <Image
-                src={ProfilePic}
-                alt="Anurag Band"
-                width={300}
-                height={300}
-                className="rounded-lg lg:ml-48"
-              />
+            <Image
+              src={ProfilePic}
+              alt="Anurag Band"
+              width={300}
+              height={300}
+              className="rounded-lg lg:ml-48"
+            />
             {/* Right Lower Section */}
-            <div className="flex flex-col justify-center py-16 ml-24 lg:ml-[11.8rem] space-y-6">
+            <div className="flex flex-col justify-center py-14 ml-24 lg:ml-[11.8rem] space-y-6">
               <Link
                 className="flex items-center space-x-3 hover:text-emerald-500"
                 href={siteMetadata.socials.github}
@@ -129,6 +133,15 @@ const About = () => {
               >
                 <BsInstagram className="text-xl" />
                 <span className="hidden md:block">Follow on Instagram</span>
+              </Link>
+              <Link
+                className="flex items-center space-x-3 hover:text-emerald-500"
+                href={`mailto:${siteMetadata.email}`}
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <SiGmail className="text-xl" />
+                <span className="hidden md:block">Send mail on Email</span>
               </Link>
             </div>
           </div>
