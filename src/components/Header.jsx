@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Image from "next/image";
 import ProfilePic from "../../public/assets/profile-pic.png";
 import Link from "next/link";
@@ -6,21 +6,8 @@ import NavMenu from "./NavMenu";
 import MobileNavbar from "./MobileNavbar";
 
 const Header = () => {
-  const [shadow, setShadow] = useState(false);
-
-  useEffect(() => {
-    const handleShadow = () => {
-      if (window.scrollY >= 90) {
-        setShadow(true);
-      } else {
-        setShadow(false);
-      }
-    };
-    window.addEventListener("scroll", handleShadow);
-  }, []);
-
   return (
-    <header className={`bg-white flex items-center px-10 py-3 sticky top-0 w-full z-50 ${shadow && "shadow-lg"}`}>
+    <header className={`bg-white flex items-center px-10 py-3 sticky top-0 w-full z-50 shadow-lg`}>
       <div className="flex items-center justify-between w-full">
         {/* Left Section */}
         <Link

@@ -1,33 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Solitreo&display=swap');
 
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
 * {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 @layer components {
-    .hideMenuNav {
-        display: none;
-    }
-    .showMenuNav {
-        position: absolute;
-        width: 100vw;
-        height: 100vh;
-        top: 45px;
-        right: -39px;
-        background: white;
-        z-index: 10;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-        padding-bottom: 12rem;
-    }
+  .hideMenuNav {
+    @apply hidden;
+  }
+  .showMenuNav {
+    @apply absolute w-screen h-screen top-[45px] right-[-39px] bg-white z-50 flex flex-col justify-evenly items-center pb-48;
+  }
 
-    .showMenuNav > * {
-        font-size: 32px;
-    }
+  .showMenuNav > * {
+    @apply text-3xl;
+  }
 }

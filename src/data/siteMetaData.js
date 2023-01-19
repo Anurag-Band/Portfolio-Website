@@ -1,5 +1,5 @@
 const siteMetadata = {
- socials: {
+  socials: {
     twitter: "https://twitter.com/anuragBand10",
     github: "https://github.com/Anurag-Band",
     linkedin: "https://www.linkedin.com/in/anurag-band/",
@@ -8,6 +8,8 @@ const siteMetadata = {
   },
   email: "anuragband10@gmail.com",
   phoneNumber: "+91-9637072693",
+  resumeLink:
+    "https://res.cloudinary.com/dkoxjcwg7/image/upload/v1674102113/Resume/Anurag_Band_Resume_Full_Stack_Developer_kfz4b8.pdf",
   siteNavLinks: [
     {
       name: "Home",
@@ -15,19 +17,19 @@ const siteMetadata = {
     },
     {
       name: "About",
-      href: "/#about",
+      href: "/about",
     },
     {
       name: "Skills",
-      href: "/#skills",
+      href: "/skills",
     },
     {
       name: "Experience",
-      href: "/#experience",
+      href: "/experience",
     },
     {
       name: "Projects",
-      href: "/#projects",
+      href: "/projects",
     },
     {
       name: "Resume",
@@ -35,7 +37,7 @@ const siteMetadata = {
     },
     {
       name: "Contact",
-      href: "/#contact",
+      href: "/contact",
     },
   ],
 };
