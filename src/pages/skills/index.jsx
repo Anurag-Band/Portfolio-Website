@@ -6,6 +6,7 @@ import CssIcon from "@/../public/assets/skills-icons/css-3.png";
 import JsIcon from "@/../public/assets/skills-icons/js.png";
 import TsIcon from "@/../public/assets/skills-icons/typescript.png";
 import ReactIcon from "@/../public/assets/skills-icons/react.png";
+import NextIcon from "@/../public/assets/skills-icons/next-js.png";
 import MuiIcon from "@/../public/assets/skills-icons/material-ui.png";
 import TailwindIcon from "@/../public/assets/skills-icons/tailwind-css-icon.png";
 import ReduxIcon from "@/../public/assets/skills-icons/redux.png";
@@ -15,6 +16,7 @@ import MongodbIcon from "@/../public/assets/skills-icons/mongodb.png";
 import FirebaseIcon from "@/../public/assets/skills-icons/firebase.png";
 import LinuxIcon from "@/../public/assets/skills-icons/linux.png";
 import DockerIcon from "@/../public/assets/skills-icons/docker.png";
+import PostmanIcon from "@/../public/assets/skills-icons/postman.png";
 import GitIcon from "@/../public/assets/skills-icons/git.png";
 import GitHubIcon from "@/../public/assets/skills-icons/github.png";
 import GitLabIcon from "@/../public/assets/skills-icons/gitlab.png";
@@ -46,7 +48,7 @@ const Skills = () => {
           </p>
         </div>
         {/* Skills Section */}
-        <div className="flex flex-col space-y-8">
+        <div className="flex flex-col space-y-8 w-7/12 mx-auto">
           {/* Frontend */}
           <div className="flex flex-col w-full space-y-3">
             <div className="w-full h-[2vh] flex flex-col items-center justify-center">
@@ -72,6 +74,10 @@ const Skills = () => {
               <SkillCard
                 name={"React.JS"}
                 icon={ReactIcon}
+              />
+              <SkillCard
+                name={"Next.JS"}
+                icon={NextIcon}
               />
               <SkillCard
                 name={"Material UI"}
@@ -125,6 +131,10 @@ const Skills = () => {
                 name={"Docker"}
                 icon={DockerIcon}
               />
+               <SkillCard
+                name={"Postman"}
+                icon={PostmanIcon}
+              />
               <SkillCard
                 name={"Git"}
                 icon={GitIcon}
@@ -139,10 +149,10 @@ const Skills = () => {
               />
             </div>
           </div>
-          {/* Familier Languages */}
+          {/* Familiar Languages */}
           <div className="flex flex-col w-full space-y-3">
             <div className="w-full h-[2vh] flex flex-col items-center justify-center">
-              <h3 className="font-medium text-2xl tracking-widest">Tools</h3>
+              <h3 className="font-medium text-2xl tracking-widest">Familiar Languages</h3>
             </div>
             <div className="flex items-center justify-evenly flex-wrap space-x-8 container mx-auto w-full">
               <SkillCard
