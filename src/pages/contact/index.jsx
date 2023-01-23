@@ -22,7 +22,7 @@ const Contact = () => {
         id="contact"
         className="w-full lg:h-screen"
       >
-        <div className="w-9/12 m-auto px-2 py-10 w-full">
+        <div className="w-8/12 m-auto px-2 py-10">
           <div className="flex items-center flex-col space-y-3">
             <h2 className="font-mainHeading font-medium text-4xl tracking-widest">
               CONTACT ME
@@ -49,7 +49,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="uppercase pt-8">Connect With Me</p>
-                  <div className="flex items-center justify-between py-4">
+                  <div className="flex items-center justify-between flex-wrap py-4">
                     <Link
                       href={siteMetadata.socials.linkedin}
                       rel="noopener noreferrer"
