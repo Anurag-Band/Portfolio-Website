@@ -87,6 +87,112 @@ const siteMetadata = {
       deployedLink: "https://cash-n-carry-ecomm-store.netlify.com",
     },
   ],
+  skillsData: [
+    {
+      skillCategory: "Frontend",
+      skillList: [
+        {
+          name: "HTML",
+          iconPath: "/../public/assets/skills-icons/html-5.png",
+        },
+        {
+          name: "CSS",
+          iconPath: "/../public/assets/skills-icons/css-3.png",
+        },
+        {
+          name: "JavaScript",
+          iconPath: "/../public/assets/skills-icons/js.png",
+        },
+        {
+          name: "TypeScript",
+          iconPath: "/../public/assets/skills-icons/typescript.png",
+        },
+        {
+          name: "React JS",
+          iconPath: "/../public/assets/skills-icons/react.png",
+        },
+        {
+          name: "Next JS",
+          iconPath: "/../public/assets/skills-icons/next-js.png",
+        },
+        {
+          name: "Material UI",
+          iconPath: "/../public/assets/skills-icons/material-ui.png",
+        },
+        {
+          name: "Tailwind CSS",
+          iconPath: "/../public/assets/skills-icons/tailwind-css-icon.png",
+        },
+        {
+          name: "Redux",
+          iconPath: "/../public/assets/skills-icons/redux.png",
+        },
+      ],
+    },
+    {
+      skillCategory: "Backend",
+      skillList: [
+        {
+          name: "Node JS",
+          iconPath: "/../public/assets/skills-icons/nodejs.png",
+        },
+        {
+          name: "Express JS",
+          iconPath: "/../public/assets/skills-icons/express-js.png",
+        },
+        {
+          name: "MongoDb",
+          iconPath: "/../public/assets/skills-icons/mongodb.png",
+        },
+        {
+          name: "Firebase",
+          iconPath: "/../public/assets/skills-icons/firebase.png",
+        },
+      ],
+    },
+    {
+      skillCategory: "Tools",
+      skillList: [
+        {
+          name: "Linux",
+          iconPath: "/../public/assets/skills-icons/linux.png",
+        },
+        {
+          name: "Docker",
+          iconPath: "/../public/assets/skills-icons/docker.png",
+        },
+        {
+          name: "Postman",
+          iconPath: "/../public/assets/skills-icons/postman.png",
+        },
+        {
+          name: "Git",
+          iconPath: "/../public/assets/skills-icons/git.png",
+        },
+        {
+          name: "GitHub",
+          iconPath: "/../public/assets/skills-icons/github.png",
+        },
+        {
+          name: "GitLab",
+          iconPath: "/../public/assets/skills-icons/gitlab.png",
+        },
+      ],
+    },
+    {
+      skillCategory: "Familiar Languages",
+      skillList: [
+        {
+          name: "Java",
+          iconPath: "/../public/assets/skills-icons/java.png",
+        },
+        {
+          name: "Python",
+          iconPath: "/../public/assets/skills-icons/python.png",
+        },
+      ],
+    },
+  ],
 };
 
 export default siteMetadata;

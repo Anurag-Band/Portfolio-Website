@@ -22,7 +22,7 @@ import GitHubIcon from "@/../public/assets/skills-icons/github.png";
 import GitLabIcon from "@/../public/assets/skills-icons/gitlab.png";
 import JavaIcon from "@/../public/assets/skills-icons/java.png";
 import PythonIcon from "@/../public/assets/skills-icons/python.png";
-
+import siteMetadata from "@/data/siteMetaData";
 
 const Skills = () => {
   return (
@@ -49,122 +49,27 @@ const Skills = () => {
         </div>
         {/* Skills Section */}
         <div className="flex flex-col space-y-8 w-7/12 mx-auto">
-          {/* Frontend */}
-          <div className="flex flex-col w-full space-y-3">
-            <div className="w-full h-[2vh] flex flex-col items-center justify-center">
-              <h3 className="font-medium text-2xl tracking-widest">Frontend</h3>
+          {siteMetadata.skillsData.map((skill, index) => (
+            <div
+              key={index}
+              className="flex flex-col w-full space-y-3"
+            >
+              <div className="w-full h-[2vh] flex flex-col items-center justify-center">
+                <h3 className="font-medium text-2xl tracking-widest">
+                  {skill.skillCategory}
+                </h3>
+              </div>
+              <div className="flex items-center justify-evenly flex-wrap space-x-8 container mx-auto w-full">
+                {skill.skillList.map((skill, index) => (
+                  <SkillCard
+                    key={index}
+                    name={skill.name}
+                    icon={skill.iconPath}
+                  />
+                ))}
+              </div>
             </div>
-            <div className="flex items-center justify-evenly flex-wrap space-x-8 container mx-auto w-full">
-              <SkillCard
-                name={"HTML"}
-                icon={HtmlIcon}
-              />
-              <SkillCard
-                name={"CSS"}
-                icon={CssIcon}
-              />
-              <SkillCard
-                name={"JavaScript"}
-                icon={JsIcon}
-              />
-              <SkillCard
-                name={"TypeScript"}
-                icon={TsIcon}
-              />
-              <SkillCard
-                name={"React.JS"}
-                icon={ReactIcon}
-              />
-              <SkillCard
-                name={"Next.JS"}
-                icon={NextIcon}
-              />
-              <SkillCard
-                name={"Material UI"}
-                icon={MuiIcon}
-              />
-              <SkillCard
-                name={"Tailwind CSS"}
-                icon={TailwindIcon}
-              />
-              <SkillCard
-                name={"Redux"}
-                icon={ReduxIcon}
-              />
-            </div>
-          </div>
-          {/* Backend */}
-          <div className="flex flex-col w-full space-y-3">
-            <div className="w-full h-[2vh] flex flex-col items-center justify-center">
-              <h3 className="font-medium text-2xl tracking-widest">Backend</h3>
-            </div>
-            <div className="flex items-center justify-evenly flex-wrap space-x-8 container mx-auto w-full">
-              <SkillCard
-                name={"Node.JS"}
-                icon={NodeJsIcon}
-              />
-              <SkillCard
-                name={"Express.JS"}
-                icon={ExpressJsIcon}
-              />
-              <SkillCard
-                name={"MongoDb"}
-                icon={MongodbIcon}
-              />
-              <SkillCard
-                name={"Firebase"}
-                icon={FirebaseIcon}
-              />
-            </div>
-          </div>
-          {/* Tools */}
-          <div className="flex flex-col w-full space-y-3">
-            <div className="w-full h-[2vh] flex flex-col items-center justify-center">
-              <h3 className="font-medium text-2xl tracking-widest">Tools</h3>
-            </div>
-            <div className="flex items-center justify-evenly flex-wrap space-x-8 container mx-auto w-full">
-              <SkillCard
-                name={"Linux"}
-                icon={LinuxIcon}
-              />
-              <SkillCard
-                name={"Docker"}
-                icon={DockerIcon}
-              />
-               <SkillCard
-                name={"Postman"}
-                icon={PostmanIcon}
-              />
-              <SkillCard
-                name={"Git"}
-                icon={GitIcon}
-              />
-              <SkillCard
-                name={"GitHub"}
-                icon={GitHubIcon}
-              />
-              <SkillCard
-                name={"Gitlab"}
-                icon={GitLabIcon}
-              />
-            </div>
-          </div>
-          {/* Familiar Languages */}
-          <div className="flex flex-col w-full space-y-3">
-            <div className="w-full h-[2vh] flex flex-col items-center justify-center">
-              <h3 className="font-medium text-2xl tracking-widest">Familiar Languages</h3>
-            </div>
-            <div className="flex items-center justify-evenly flex-wrap space-x-8 container mx-auto w-full">
-              <SkillCard
-                name={"Java"}
-                icon={JavaIcon}
-              />
-              <SkillCard
-                name={"Python"}
-                icon={PythonIcon}
-              />
-            </div>
-          </div>
+          ))}
         </div>
       </section>
     </>
