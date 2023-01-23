@@ -1,4 +1,6 @@
 import DivideLine from "@/components/DivideLine";
+import ProjectCard from "@/components/ProjectCard";
+import siteMetadata from "@/data/siteMetaData";
 import Head from "next/head";
 import React from "react";
 
@@ -28,8 +30,18 @@ const Projects = () => {
           </p>
           <DivideLine />
         </div>
-        <div className="flex flex-col container mx-auto px-5 xl:px-28 py-5 xl:py-14 w-full">
-
+        <div className="flex flex-col container mx-auto px-5 xl:px-28 py-5 xl:py-14 w-full mt-20">
+          {siteMetadata.ProjectsData.map((proj) => (
+            <ProjectCard
+              key={proj.srNo}
+              name={proj.name}
+              description={proj.description}
+              imageUrl={proj.imageUrl}
+              tools={proj.tools}
+              repoLink={proj.repoLink}
+              deployedLink={proj.deployedLink}
+            />
+          ))}
         </div>
       </section>
     </>

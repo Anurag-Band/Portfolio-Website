@@ -9,7 +9,7 @@ const siteMetadata = {
   email: "anuragband10@gmail.com",
   phoneNumber: "+91-9637072693",
   resumeLink:
-    "https://res.cloudinary.com/dkoxjcwg7/image/upload/v1674102113/Resume/Anurag_Band_Resume_Full_Stack_Developer_kfz4b8.pdf",
+    "https://res.cloudinary.com/dkoxjcwg7/image/upload/v1674468593/Resume/Anurag_Band_Resume_Full_Stack_Developer_23_Jan_2023_cdefzw.pdf",
   siteNavLinks: [
     {
       name: "Home",
@@ -38,6 +38,48 @@ const siteMetadata = {
     {
       name: "Contact",
       href: "/contact",
+    },
+  ],
+  ProjectsData: [
+    {
+      srNo: 1,
+      name: "Cash N Carry | Ecomm store",
+      description: "This project served as a learning tool for me to get more familiar with the advanced features of Next.js and to learn more about the use of Airtable as a database. I also wanted to learn more about the use of SWR to handle data fetching and caching. I wanted to learn about creating API routes and using Airtable to store data",
+      imageUrl:
+        "https://res.cloudinary.com/dkoxjcwg7/image/upload/v1674188548/projects/amazon-website_2019_homepage-august_dyjzpv.jpg",
+      tools: ["React.js", "Node.js", "MongoDb", "Express.js"],
+      repoLink: "https://github.com/Anurag-Band/ecomm-store",
+      deployedLink: "https://cash-n-carry-ecomm-store.netlify.com",
+    },
+    {
+      srNo: 2,
+      name: "Cash N Carry | Ecomm store",
+      description: "This project served as a learning tool for me to get more familiar with the advanced features of Next.js and to learn more about the use of Airtable as a database. I also wanted to learn more about the use of SWR to handle data fetching and caching. I wanted to learn about creating API routes and using Airtable to store data",
+      imageUrl:
+        "https://res.cloudinary.com/dkoxjcwg7/image/upload/v1674188548/projects/amazon-website_2019_homepage-august_dyjzpv.jpg",
+      tools: ["React.js", "Node.js", "MongoDb", "Express.js"],
+      repoLink: "https://github.com/Anurag-Band/ecomm-store",
+      deployedLink: "https://cash-n-carry-ecomm-store.netlify.com",
+    },
+    {
+      srNo: 3,
+      name: "Cash N Carry | Ecomm store",
+      description: "This project served as a learning tool for me to get more familiar with the advanced features of Next.js and to learn more about the use of Airtable as a database. I also wanted to learn more about the use of SWR to handle data fetching and caching. I wanted to learn about creating API routes and using Airtable to store data",
+      imageUrl:
+        "https://res.cloudinary.com/dkoxjcwg7/image/upload/v1674188548/projects/amazon-website_2019_homepage-august_dyjzpv.jpg",
+      tools: ["React.js", "Node.js", "MongoDb", "Express.js"],
+      repoLink: "https://github.com/Anurag-Band/ecomm-store",
+      deployedLink: "https://cash-n-carry-ecomm-store.netlify.com",
+    },
+    {
+      srNo: 4,
+      name: "Cash N Carry | Ecomm store",
+      description: "This project served as a learning tool for me to get more familiar with the advanced features of Next.js and to learn more about the use of Airtable as a database. I also wanted to learn more about the use of SWR to handle data fetching and caching. I wanted to learn about creating API routes and using Airtable to store data",
+      imageUrl:
+        "https://res.cloudinary.com/dkoxjcwg7/image/upload/v1674188548/projects/amazon-website_2019_homepage-august_dyjzpv.jpg",
+      tools: ["React.js", "Node.js", "MongoDb", "Express.js"],
+      repoLink: "https://github.com/Anurag-Band/ecomm-store",
+      deployedLink: "https://cash-n-carry-ecomm-store.netlify.com",
     },
   ],
 };
