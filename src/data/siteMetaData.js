@@ -193,6 +193,24 @@ const siteMetadata = {
       ],
     },
   ],
+  experienceData: [
+    {
+      srNo: 1,
+      companyName: "TruScholar",
+      jobTitle: "Full Stack Developer Intern",
+      logoUrl:
+        "https://images.g2crowd.com/uploads/product/image/social_landscape/social_landscape_24a0afcd110186009cc50b8f89dfdf4a/truscholar.png",
+      companyUrl: "https://www.truscholar.io",
+      startDate: "Oct 2022",
+      endDate: "Present",
+      workSummery: [
+        "Worked in a Scrum-based environment, on a SaaS product that helps institutions to issue Blockchain Powered Digital Certificates and Badges used by more than 300 Institutions",
+        "Using MERN Stack, Solved major Bugs in production related to custom email, certificates issuance, designer tool, Validations, etc",
+        "Created feature for sending Custom email using template for individual issuance of Certificates & Badges",
+        "Worked on Material UI to build interactive front ends with major focus on to improve User Experience with UI/UX Strategies",
+      ],
+    },
+  ],
 };
 
 export default siteMetadata;
