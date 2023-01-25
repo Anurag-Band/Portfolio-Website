@@ -130,39 +130,39 @@ const siteMetadata = {
       skillList: [
         {
           name: "HTML",
-          iconPath: "/../public/assets/skills-icons/html-5.png",
+          iconPath: "/html-5.png",
         },
         {
           name: "CSS",
-          iconPath: "/../public/assets/skills-icons/css-3.png",
+          iconPath: "/css-3.png",
         },
         {
           name: "JavaScript",
-          iconPath: "/../public/assets/skills-icons/js.png",
+          iconPath: "/js.png",
         },
         {
           name: "TypeScript",
-          iconPath: "/../public/assets/skills-icons/typescript.png",
+          iconPath: "/typescript.png",
         },
         {
           name: "React JS",
-          iconPath: "/../public/assets/skills-icons/react.png",
+          iconPath: "/react.png",
         },
         {
           name: "Next JS",
-          iconPath: "/../public/assets/skills-icons/next-js.png",
+          iconPath: "/next-js.png",
         },
         {
           name: "Material UI",
-          iconPath: "/../public/assets/skills-icons/material-ui.png",
+          iconPath: "/material-ui.png",
         },
         {
           name: "Tailwind CSS",
-          iconPath: "/../public/assets/skills-icons/tailwind-css-icon.png",
+          iconPath: "/tailwind-css-icon.png",
         },
         {
           name: "Redux",
-          iconPath: "/../public/assets/skills-icons/redux.png",
+          iconPath: "/redux.png",
         },
       ],
     },
@@ -171,19 +171,19 @@ const siteMetadata = {
       skillList: [
         {
           name: "Node JS",
-          iconPath: "/../public/assets/skills-icons/nodejs.png",
+          iconPath: "/nodejs.png",
         },
         {
           name: "Express JS",
-          iconPath: "/../public/assets/skills-icons/express-js.png",
+          iconPath: "/express-js.png",
         },
         {
           name: "MongoDb",
-          iconPath: "/../public/assets/skills-icons/mongodb.png",
+          iconPath: "/mongodb.png",
         },
         {
           name: "Firebase",
-          iconPath: "/../public/assets/skills-icons/firebase.png",
+          iconPath: "/firebase.png",
         },
       ],
     },
@@ -192,27 +192,27 @@ const siteMetadata = {
       skillList: [
         {
           name: "Linux",
-          iconPath: "/../public/assets/skills-icons/linux.png",
+          iconPath: "/linux.png",
         },
         {
           name: "Docker",
-          iconPath: "/../public/assets/skills-icons/docker.png",
+          iconPath: "/docker.png",
         },
         {
           name: "Postman",
-          iconPath: "/../public/assets/skills-icons/postman.png",
+          iconPath: "/postman.png",
         },
         {
           name: "Git",
-          iconPath: "/../public/assets/skills-icons/git.png",
+          iconPath: "/git.png",
         },
         {
           name: "GitHub",
-          iconPath: "/../public/assets/skills-icons/github.png",
+          iconPath: "/github.png",
         },
         {
           name: "GitLab",
-          iconPath: "/../public/assets/skills-icons/gitlab.png",
+          iconPath: "/gitlab.png",
         },
       ],
     },
@@ -221,11 +221,11 @@ const siteMetadata = {
       skillList: [
         {
           name: "Java",
-          iconPath: "/../public/assets/skills-icons/java.png",
+          iconPath: "/java.png",
         },
         {
           name: "Python",
-          iconPath: "/../public/assets/skills-icons/python.png",
+          iconPath: "/python.png",
         },
       ],
     },
