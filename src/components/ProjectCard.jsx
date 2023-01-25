@@ -12,15 +12,15 @@ const ProjectCard = ({
   deployedLink,
 }) => {
   return (
-    <div className="relative flex items-center z-10 w-9/12 mx-auto px-14 py-14 space-x-14 my-8">
+    <div className="relative flex items-center z-10 w-9/12 mx-auto px-14 py-7 space-x-14 my-8">
         {/* Card Background */}
-      <div className="absolute w-9/12 h-full -z-10 top-0 right-0 bg-gray-50 shadow-lg rounded-lg" />
+      <div className="absolute w-9/12 h-full -z-10 top-0 right-0 bg-white shadow-lg rounded-lg" />
       {/* Left Image Section */}
       <Image
         alt={name}
         src={imageUrl}
-        width={250}
-        height={100}
+        width={300}
+        height={150}
         className="w-1/2"
       />
       {/* Right Details Section */}

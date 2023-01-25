@@ -9,7 +9,7 @@ const siteMetadata = {
   email: "anuragband10@gmail.com",
   phoneNumber: "+91-9637072693",
   resumeLink:
-    "https://res.cloudinary.com/dkoxjcwg7/image/upload/v1674468593/Resume/Anurag_Band_Resume_Full_Stack_Developer_23_Jan_2023_cdefzw.pdf",
+    "https://res.cloudinary.com/dkoxjcwg7/image/upload/v1674620936/Resume/Anurag_Band_Resume_Full_Stack_Developer_25_Jan_2023_uapx7t.pdf",
   contactFormLink: "https://getform.io/f/ab18009e-b31c-4fa8-8ded-12c9d8632519",
   siteNavLinks: [
     {
@@ -29,6 +29,10 @@ const siteMetadata = {
       href: "/experience",
     },
     {
+      name: "Education",
+      href: "/education",
+    },
+    {
       name: "Projects",
       href: "/projects",
     },
@@ -45,46 +49,77 @@ const siteMetadata = {
     {
       srNo: 1,
       name: "Cash N Carry | Ecomm store",
-      description:
-        "This project served as a learning tool for me to get more familiar with the advanced features of Next.js and to learn more about the use of Airtable as a database. I also wanted to learn more about the use of SWR to handle data fetching and caching. I wanted to learn about creating API routes and using Airtable to store data",
+      description: `Fully Functional Ecommerce Web Application having Three Roles available : Visitors, Users, & Admins
+        It contains JWT Token Authentication, NodeMailer with MailTrap for sending password reset email
+        User can add products in the Cart, and has functionality to Place an Order to their Location and also write their Reviews on the product also having Stripe Payment Gateway for Digital Payments
+        Additionally, Integrated ADMIN have access to DASHBOARD where he can Add Product, update it, Keep track of Users, Reviews, Also Admin can Process Orders`,
       imageUrl:
-        "https://res.cloudinary.com/dkoxjcwg7/image/upload/v1674188548/projects/amazon-website_2019_homepage-august_dyjzpv.jpg",
-      tools: ["React.js", "Node.js", "MongoDb", "Express.js"],
-      repoLink: "https://github.com/Anurag-Band/ecomm-store",
-      deployedLink: "https://cash-n-carry-ecomm-store.netlify.com",
+        "https://res.cloudinary.com/dkoxjcwg7/image/upload/v1674622435/portfolio-website-assests/projects-images/Screenshot_from_2023-01-25_10-13-25_pylypc.png",
+      tools: [
+        "React.js",
+        "Node.js",
+        "MongoDb",
+        "Express.js",
+        "Tailwind CSS",
+        "Material UI",
+        "Chart JS",
+        "Mailtrap",
+        "Nodemailer",
+        "Stripe Payments API",
+      ],
+      repoLink: "https://github.com/Anurag-Band/mern-ecommerce-marketplace",
+      deployedLink: "https://cash-n-carry-store.netlify.app",
     },
     {
       srNo: 2,
-      name: "Cash N Carry | Ecomm store",
-      description:
-        "This project served as a learning tool for me to get more familiar with the advanced features of Next.js and to learn more about the use of Airtable as a database. I also wanted to learn more about the use of SWR to handle data fetching and caching. I wanted to learn about creating API routes and using Airtable to store data",
+      name: "Instagram Clone with Firebase Backend",
+      description: `Social Networking Site that enables users to share their experiences as pictures and videos
+      Implemented features include uploading posts (images and videos), Like posts, and Commenting on posts
+      with User Authentication using Google OAuth as well as Email and Password.`,
       imageUrl:
-        "https://res.cloudinary.com/dkoxjcwg7/image/upload/v1674188548/projects/amazon-website_2019_homepage-august_dyjzpv.jpg",
-      tools: ["React.js", "Node.js", "MongoDb", "Express.js"],
-      repoLink: "https://github.com/Anurag-Band/ecomm-store",
-      deployedLink: "https://cash-n-carry-ecomm-store.netlify.com",
+        "https://res.cloudinary.com/dkoxjcwg7/image/upload/v1674622434/portfolio-website-assests/projects-images/Screenshot_from_2023-01-25_10-22-13_syhmq3.png",
+      tools: [
+        "React.js",
+        "Tailwind CSS",
+        "Material UI",
+        "Firebase Auth",
+        "Firebase Firestore",
+        "Firebase Storage",
+      ],
+      repoLink: "https://github.com/Anurag-Band/mern-ecommerce-marketplace",
+      deployedLink: "https://cash-n-carry-store.netlify.app",
     },
     {
       srNo: 3,
-      name: "Cash N Carry | Ecomm store",
-      description:
-        "This project served as a learning tool for me to get more familiar with the advanced features of Next.js and to learn more about the use of Airtable as a database. I also wanted to learn more about the use of SWR to handle data fetching and caching. I wanted to learn about creating API routes and using Airtable to store data",
+      name: "Flashcard Generator",
+      description: ``,
       imageUrl:
-        "https://res.cloudinary.com/dkoxjcwg7/image/upload/v1674188548/projects/amazon-website_2019_homepage-august_dyjzpv.jpg",
-      tools: ["React.js", "Node.js", "MongoDb", "Express.js"],
-      repoLink: "https://github.com/Anurag-Band/ecomm-store",
-      deployedLink: "https://cash-n-carry-ecomm-store.netlify.com",
+        "https://res.cloudinary.com/dkoxjcwg7/image/upload/v1674622900/portfolio-website-assests/projects-images/Screenshot_from_2023-01-25_10-24-57_gdxzys.png",
+      tools: [
+        "React.js",
+        "Tailwind CSS",
+        "FORMIK",
+        "Redux Toolkit",
+        "React Router",
+        "Social Shares",
+      ],
+      repoLink: "https://github.com/Anurag-Band/Flashcard-Generator",
+      deployedLink: "https://flashcard-generator-anurag-band.netlify.app",
     },
     {
       srNo: 4,
-      name: "Cash N Carry | Ecomm store",
-      description:
-        "This project served as a learning tool for me to get more familiar with the advanced features of Next.js and to learn more about the use of Airtable as a database. I also wanted to learn more about the use of SWR to handle data fetching and caching. I wanted to learn about creating API routes and using Airtable to store data",
+      name: "Shopping Cart App with Context API",
+      description: `This project contains Shopping Cart application using React JS along with the usage of Context API for the Global state management of the application, and Styled with Tailwind CSS,
+       In this project I learned about React Inbuilt Global State Management tool called Context API, as it an inbuilt functionality of react it is very lightweight doesn't unnecessarily increases the size of whole package`,
       imageUrl:
-        "https://res.cloudinary.com/dkoxjcwg7/image/upload/v1674188548/projects/amazon-website_2019_homepage-august_dyjzpv.jpg",
-      tools: ["React.js", "Node.js", "MongoDb", "Express.js"],
-      repoLink: "https://github.com/Anurag-Band/ecomm-store",
-      deployedLink: "https://cash-n-carry-ecomm-store.netlify.com",
+        "https://res.cloudinary.com/dkoxjcwg7/image/upload/v1674622902/portfolio-website-assests/projects-images/Screenshot_from_2023-01-25_10-31-12_h2dy9t.png",
+      tools: [
+        "React.js",
+        "Tailwind CSS",
+        "Context API",
+      ],
+      repoLink: "https://github.com/Anurag-Band/Shopping-Cart",
+      deployedLink: "https://your-shopping-cart.netlify.app",
     },
   ],
   skillsData: [
@@ -209,6 +244,19 @@ const siteMetadata = {
         "Created feature for sending Custom email using template for individual issuance of Certificates & Badges",
         "Worked on Material UI to build interactive front ends with major focus on to improve User Experience with UI/UX Strategies",
       ],
+    },
+  ],
+  educationData: [
+    {
+      srNo: 1,
+      instituteName: "Vidyabharti Mahavidyalaya, Amravati (SGBAU University)",
+      courseName: "Bachelor of Computer Application (BCA)",
+      logoUrl:
+        "https://res.cloudinary.com/dkoxjcwg7/image/upload/v1674620705/portfolio-website-assests/vidyabharti-college_xz7ewq.jpg",
+      instituteUrl: "https://www.vbmv.org",
+      startYear: 2020,
+      endYear: 2023,
+      currentStatus: "Persuing",
     },
   ],
 };
