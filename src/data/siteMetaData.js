@@ -86,8 +86,8 @@ const siteMetadata = {
         "Firebase Firestore",
         "Firebase Storage",
       ],
-      repoLink: "https://github.com/Anurag-Band/mern-ecommerce-marketplace",
-      deployedLink: "https://cash-n-carry-store.netlify.app",
+      repoLink: "https://github.com/Anurag-Band/Instagram-Firebase-Clone",
+      deployedLink: "https://insta-clone-firebase-anurag-band.netlify.app",
     },
     {
       srNo: 3,
