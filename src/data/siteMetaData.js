@@ -92,7 +92,13 @@ const siteMetadata = {
     {
       srNo: 3,
       name: "Flashcard Generator",
-      description: ``,
+      description: `
+      Using flashcards is one of the mosts common study methods, and it is the one many students are most familiar. Flashcards help students to engage in active recall or a process wherein students actively engage in learning by stimulating our memories and creating lasting connections to the material
+      which has mainly 3 pages :-
+      ->> Create Flashcard Page
+      ->> My Flashcards Page
+      ->>Flashcard Details Page
+      `,
       imageUrl:
         "https://res.cloudinary.com/dkoxjcwg7/image/upload/v1674622900/portfolio-website-assests/projects-images/Screenshot_from_2023-01-25_10-24-57_gdxzys.png",
       tools: [
@@ -113,11 +119,7 @@ const siteMetadata = {
        In this project I learned about React Inbuilt Global State Management tool called Context API, as it an inbuilt functionality of react it is very lightweight doesn't unnecessarily increases the size of whole package`,
       imageUrl:
         "https://res.cloudinary.com/dkoxjcwg7/image/upload/v1674622902/portfolio-website-assests/projects-images/Screenshot_from_2023-01-25_10-31-12_h2dy9t.png",
-      tools: [
-        "React.js",
-        "Tailwind CSS",
-        "Context API",
-      ],
+      tools: ["React.js", "Tailwind CSS", "Context API"],
       repoLink: "https://github.com/Anurag-Band/Shopping-Cart",
       deployedLink: "https://your-shopping-cart.netlify.app",
     },
