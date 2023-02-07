@@ -12,13 +12,13 @@ const ExperienceCard = ({
   workSummery,
 }) => {
   return (
-    <div className="relative flex items-center justify-between w-10/12 mx-auto px-16 py-10 my-10 space-x-14 bg-white shadow-md rounded-md">
+    <div className="relative flex items-center justify-between w-10/12 mx-auto px-16 py-10 my-10 space-x-14 bg-primary-bg-color border border-[#263b72] shadow-md rounded-md">
       {/* Left Image Section */}
       <Link
         href={companyUrl}
         rel="noopener noreferrer"
         target="_blank"
-        className="flex flex-col items-center"
+        className="flex flex-col items-center bg-primary-text-color p-5 rounded-sm"
       >
         <Image
           alt={companyName}
@@ -30,15 +30,15 @@ const ExperienceCard = ({
       </Link>
       {/* Right Details Section */}
       <div className="w-3/5 flex flex-col items-start space-y-2">
-        <h3 className="font-medium text-xl">
+        <h3 className="font-medium text-2xl">
           {jobTitle}{" "}
-          <span className="font-normal tracking-wider text-slate-700">{`(${startDate} - ${endDate})`}</span>
+          <span className="font-normal tracking-wider">{`(${startDate} - ${endDate})`}</span>
         </h3>
         <ul className="space-y-2">
           {workSummery.map((summery, index) => (
             <li
               key={index}
-              className="list-disc list-outside text-slate-800 font-normal"
+              className="list-disc list-outside font-normal"
             >
               {summery}
             </li>

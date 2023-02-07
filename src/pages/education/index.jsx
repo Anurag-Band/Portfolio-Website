@@ -14,13 +14,13 @@ const Education = () => {
           content="Anurag Band | My Education"
         />
       </Head>
-      <section className="min-h-[92vh] flex flex-col bg-slate-100 space-y-6">
+      <section className="min-h-[92vh] flex flex-col bg-primary-bg-color text-primary-text-color space-y-6">
         <div className="w-full h-[12vh] flex flex-col items-center justify-center space-y-4 mt-10">
           <h2 className="font-mainHeading font-medium text-4xl tracking-widest">
-            Work Experience
+            Education
           </h2>
           <hr className="border border-b-4 border-b-teal-500 w-14" />
-          <p className="text-lg text-slate-500 font-medium">
+          <p className="text-lg text-slate-400 font-medium">
             Here&#39;s a brief rundown of my most recent experiences.
           </p>
         </div>

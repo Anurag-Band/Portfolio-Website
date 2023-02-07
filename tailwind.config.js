@@ -7,6 +7,11 @@ module.exports = {
         mainHeading: ["Bebas Neue", "cursive"],
         handwriting: ["Solitreo", "cursive"],
       },
+      colors: {
+        "primary-bg-color": "#141c31",
+        "primary-text-color": "#e9e8e8"
+      },
+      display: ["group-hover"],
     },
   },
   plugins: [],

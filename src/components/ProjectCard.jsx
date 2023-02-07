@@ -14,24 +14,24 @@ const ProjectCard = ({
   return (
     <div className="relative flex items-center z-10 w-9/12 mx-auto px-14 py-7 space-x-14 my-8">
         {/* Card Background */}
-      <div className="absolute w-9/12 h-full -z-10 top-0 right-0 bg-white shadow-lg rounded-lg" />
+      <div className="absolute w-10/12 h-full -z-10 top-0 right-0 bg-[#111f42] shadow-lg rounded-lg" />
       {/* Left Image Section */}
       <Image
         alt={name}
         src={imageUrl}
-        width={300}
+        width={400}
         height={150}
         className="w-1/2"
       />
       {/* Right Details Section */}
       <div className="w-1/2 flex flex-col items-start space-y-2">
-        <h2 className="font-medium text-lg">{name}</h2>
-        <p className="text-sm text-slate-600">{description}</p>
+        <h2 className="font-medium text-xl tracking-wide">{name}</h2>
+        <p className="text-sm text-slate-300">{description}</p>
         <div className="flex text-sm font-medium text-slate-800 items-center justify-evenly space-x-2 flex-wrap">
           {tools.map((tool, index) => (
             <div
               key={index}
-              className="p-1 border-2 m-1 border-slate-500 bg-slate-200 rounded-sm"
+              className="p-1 border-2 m-1 border-slate-600 text-slate-300 bg-slate-700 rounded-sm"
             >
               {tool}
             </div>

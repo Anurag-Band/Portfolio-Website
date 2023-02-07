@@ -32,18 +32,18 @@ const About = () => {
       </Head>
       <section
         id="about"
-        className="min-h-[92vh] flex flex-col bg-slate-100 space-y-10"
+        className="min-h-[92vh] bg-primary-bg-color text-primary-text-color flex flex-col space-y-10"
       >
         <div className="w-full h-[12vh] flex flex-col items-center justify-center space-y-4">
           <h2 className="font-mainHeading font-medium text-4xl tracking-widest mt-24">
             ABOUT ME
           </h2>
-          <hr className="border border-b-4 border-b-teal-500 w-14" />
-          <p className="font-mainHeading text-2xl tracking-widest uppercase p-5 font-medium text-teal-500">
+          <hr className="border border-b-4 border-b-teal-400 w-14" />
+          <p className="font-mainHeading text-2xl tracking-widest uppercase p-5 font-medium text-teal-400">
             helping start-ups to grow their product in terms of technology
           </p>
         </div>
-        <div className="flex flex-col-reverse md:flex-row container mx-auto px-5 xl:px-28 py-5 xl:py-14 w-full font-handwriting text-xl text-slate-700 tracking-wider break-words">
+        <div className="flex flex-col-reverse md:flex-row container mx-auto px-5 xl:px-28 py-5 xl:py-14 w-full font-handwriting text-xl tracking-wider break-words">
           {/* Left Section */}
           <div className="w-full mt-5 md:mt-0 md:w-1/2 space-y-8">
             <h3>Let you Know About Me,</h3>

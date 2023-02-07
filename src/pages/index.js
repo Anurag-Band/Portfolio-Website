@@ -15,7 +15,7 @@ export default function Home() {
           content="Anurag Band | Full Stack Developer | Personal Portfolio Website"
         />
       </Head>
-      <main className="bg-slate-100">
+      <main className="bg-primary-bg-color min-h-screen">
         <Hero />
       </main>
     </>

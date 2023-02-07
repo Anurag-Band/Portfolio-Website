@@ -12,14 +12,14 @@ const Resume = () => {
           content="Anurag Band | My Resume"
         />
       </Head>
-      <main className="h-[90vh] w-full container mx-auto">
-        <iframe
-          src={
-            siteMetadata.resumeLink
-          }
-          width={"100%"}
-          height={"100%"}
-        />
+      <main className="h-[92vh] bg-primary-bg-color w-full">
+        <div className="container mx-auto h-full">
+          <iframe
+            src={siteMetadata.resumeLink}
+            width={"100%"}
+            height={"100%"}
+          />
+        </div>
       </main>
     </>
   );

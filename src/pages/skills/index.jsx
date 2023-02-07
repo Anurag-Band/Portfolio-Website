@@ -1,27 +1,6 @@
 import SkillCard from "@/components/SkillCard";
 import Head from "next/head";
 import React from "react";
-import HtmlIcon from "@/../public/assets/skills-icons/html-5.png";
-import CssIcon from "@/../public/assets/skills-icons/css-3.png";
-import JsIcon from "@/../public/assets/skills-icons/js.png";
-import TsIcon from "@/../public/assets/skills-icons/typescript.png";
-import ReactIcon from "@/../public/assets/skills-icons/react.png";
-import NextIcon from "@/../public/assets/skills-icons/next-js.png";
-import MuiIcon from "@/../public/assets/skills-icons/material-ui.png";
-import TailwindIcon from "@/../public/assets/skills-icons/tailwind-css-icon.png";
-import ReduxIcon from "@/../public/assets/skills-icons/redux.png";
-import NodeJsIcon from "@/../public/assets/skills-icons/nodejs.png";
-import ExpressJsIcon from "@/../public/assets/skills-icons/express-js.png";
-import MongodbIcon from "@/../public/assets/skills-icons/mongodb.png";
-import FirebaseIcon from "@/../public/assets/skills-icons/firebase.png";
-import LinuxIcon from "@/../public/assets/skills-icons/linux.png";
-import DockerIcon from "@/../public/assets/skills-icons/docker.png";
-import PostmanIcon from "@/../public/assets/skills-icons/postman.png";
-import GitIcon from "@/../public/assets/skills-icons/git.png";
-import GitHubIcon from "@/../public/assets/skills-icons/github.png";
-import GitLabIcon from "@/../public/assets/skills-icons/gitlab.png";
-import JavaIcon from "@/../public/assets/skills-icons/java.png";
-import PythonIcon from "@/../public/assets/skills-icons/python.png";
 import siteMetadata from "@/data/siteMetaData";
 
 const Skills = () => {
@@ -36,7 +15,7 @@ const Skills = () => {
       </Head>
       <section
         id="about"
-        className="min-h-[95vh] flex flex-col bg-slate-100 space-y-16 pb-10"
+        className="min-h-[95vh] flex flex-col bg-primary-bg-color text-primary-text-color space-y-16 pb-10"
       >
         <div className="w-full h-[5vh] flex flex-col items-center justify-center space-y-1 mb-8 mt-5">
           <h2 className="font-mainHeading font-medium text-5xl tracking-widest mt-24">

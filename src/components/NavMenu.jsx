@@ -11,12 +11,12 @@ function NavItem({ href, name }) {
     <NextLink
       href={href}
       className={`${
-        isActive ? "font-bold text-gray-900" : "font-normal text-gray-600"
-      } 'hidden md:inline-block p-1 sm:px-6 sm:py-2 rounded-full hover:text-teal-500 transition-all`}
+        isActive ? "font-bold text-teal-400" : "font-normal text-gray-200"
+      } 'hidden md:inline-block p-1 sm:px-6 sm:py-2 rounded-full hover:text-teal-400 transition-all`}
     >
       <span
         className={`${
-          isActive ? "py-1 border-b-2 border-teal-500" : "capsize"
+          isActive ? "py-1 border-b-2 border-teal-400" : "capsize"
         }`}
       >
         {name}

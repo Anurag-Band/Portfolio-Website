@@ -20,7 +20,7 @@ const Contact = () => {
       </Head>
       <div
         id="contact"
-        className="w-full lg:h-screen"
+        className="w-full lg:h-screen bg-primary-bg-color text-primary-text-color"
       >
         <div className="w-8/12 m-auto px-2 py-10">
           <div className="flex items-center flex-col space-y-3">
@@ -32,7 +32,7 @@ const Contact = () => {
           <h2 className="py-4 text-2xl font-medium">Get In Touch</h2>
           <div className="grid lg:grid-cols-5 gap-6">
             {/* left */}
-            <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
+            <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-800 rounded-xl p-4">
               <div className="lg:p-4 h-full ">
                 <Image
                   className="rounded-xl hover:scale-105 ease-in duration-300"
@@ -55,7 +55,7 @@ const Contact = () => {
                       rel="noopener noreferrer"
                       target="_blank"
                     >
-                      <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                      <div className="rounded-full shadow-lg shadow-gray-600 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                         <FaLinkedinIn />
                       </div>
                     </Link>
@@ -64,7 +64,7 @@ const Contact = () => {
                       rel="noopener noreferrer"
                       target="_blank"
                     >
-                      <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                      <div className="rounded-full shadow-lg shadow-gray-600 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                         <FaGithub />
                       </div>
                     </Link>
@@ -73,12 +73,12 @@ const Contact = () => {
                       href={`mailto:${siteMetadata.email}`}
                       rel="noopener noreferrer"
                       target="_blank"
-                      className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300"
+                      className="rounded-full shadow-lg shadow-gray-600 p-6 cursor-pointer hover:scale-110 ease-in duration-300"
                     >
                       <AiOutlineMail />
                     </Link>
                     <Link href="/resume">
-                      <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                      <div className="rounded-full shadow-lg shadow-gray-600 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                         <BsFillPersonLinesFill />
                       </div>
                     </Link>
@@ -88,7 +88,7 @@ const Contact = () => {
             </div>
 
             {/* right */}
-            <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
+            <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-800 rounded-xl lg:p-4">
               <div className="p-4">
                 <form
                   action={siteMetadata.contactFormLink}
@@ -99,7 +99,7 @@ const Contact = () => {
                     <div className="flex flex-col">
                       <label className="uppercase text-sm py-2">Name</label>
                       <input
-                        className="border-2 rounded-lg p-3 flex border-gray-300"
+                        className="border-2 rounded-lg p-3 flex text-primary-text-color bg-slate-800 border-gray-600"
                         type="text"
                         name="name"
                       />
@@ -109,7 +109,7 @@ const Contact = () => {
                         Phone Number
                       </label>
                       <input
-                        className="border-2 rounded-lg p-3 flex border-gray-300"
+                        className="border-2 rounded-lg p-3 flex text-primary-text-color bg-slate-800 border-gray-600"
                         type="text"
                         name="phone"
                       />
@@ -118,7 +118,7 @@ const Contact = () => {
                   <div className="flex flex-col py-2">
                     <label className="uppercase text-sm py-2">Email</label>
                     <input
-                      className="border-2 rounded-lg p-3 flex border-gray-300"
+                      className="border-2 rounded-lg p-3 flex text-primary-text-color bg-slate-800 border-gray-600"
                       type="email"
                       name="email"
                     />
@@ -126,7 +126,7 @@ const Contact = () => {
                   <div className="flex flex-col py-2">
                     <label className="uppercase text-sm py-2">Subject</label>
                     <input
-                      className="border-2 rounded-lg p-3 flex border-gray-300"
+                      className="border-2 rounded-lg p-3 flex text-primary-text-color bg-slate-800 border-gray-600"
                       autoComplete="off"
                       type="text"
                       name="subject"
@@ -135,7 +135,7 @@ const Contact = () => {
                   <div className="flex flex-col py-2">
                     <label className="uppercase text-sm py-2">Message</label>
                     <textarea
-                      className="border-2 rounded-lg p-3 border-gray-300"
+                      className="border-2 rounded-lg p-3 text-primary-text-color bg-slate-800 border-gray-600"
                       autoComplete="off"
                       rows="5"
                       name="message"

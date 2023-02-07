@@ -11,7 +11,7 @@ const EducationCard = ({
   endYear,
 }) => {
   return (
-    <div className="relative flex items-center w-10/12 mx-auto my-10 space-x-10 bg-white shadow-md rounded-md">
+    <div className="relative flex items-center w-10/12 mx-auto my-10 space-x-10 bg-primary-bg-color border border-[#263b72] text-primary-text-color shadow-md rounded-md">
       {/* Left Image Section */}
       <Link
         href={instituteUrl}
@@ -28,9 +28,9 @@ const EducationCard = ({
       </Link>
       {/* Right Details Section */}
       <div className="flex flex-col items-start space-y-2">
-        <h3 className="text-xl text-slate-800">{instituteName}</h3>
-        <h3 className="text-xl text-slate-800">{`(${startYear} - ${endYear})`}</h3>
-        <p className="text-lg text-slate-700">{courseName}</p>
+        <h3 className="text-xl">{instituteName}</h3>
+        <h3 className="text-xl">{`(${startYear} - ${endYear})`}</h3>
+        <p className="text-lg">{courseName}</p>
       </div>
     </div>
   );
