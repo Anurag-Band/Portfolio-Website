@@ -29,12 +29,8 @@ const siteMetadata = {
       href: "/projects",
     },
     {
-      name: "Experience",
-      href: "/experience",
-    },
-    {
-      name: "Education",
-      href: "/education",
+      name: "Experience & Education",
+      href: "/experience-n-education",
     },
     {
       name: "Resume",

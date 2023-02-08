@@ -12,7 +12,7 @@ const ExperienceCard = ({
   workSummery,
 }) => {
   return (
-    <div className="relative flex items-center justify-between w-10/12 mx-auto px-16 py-10 my-10 space-x-14 bg-primary-bg-color border border-[#263b72] shadow-md rounded-md">
+    <div className="relative flex items-center justify-between w-10/12 mx-auto px-16 py-10 my-10 space-x-14 bg-card-bg-color border border-card-border-color shadow-md rounded-md">
       {/* Left Image Section */}
       <Link
         href={companyUrl}
@@ -25,6 +25,7 @@ const ExperienceCard = ({
           src={logoUrl}
           width={250}
           height={100}
+          className="mt-5"
         />
         <h3>{companyName}</h3>
       </Link>

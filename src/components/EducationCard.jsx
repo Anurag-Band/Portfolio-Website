@@ -11,7 +11,7 @@ const EducationCard = ({
   endYear,
 }) => {
   return (
-    <div className="relative flex items-center w-10/12 mx-auto my-10 space-x-10 bg-primary-bg-color border border-[#263b72] text-primary-text-color shadow-md rounded-md">
+    <div className="relative flex items-center w-10/12 mx-auto my-10 space-x-10 bg-card-bg-color border border-card-border-color text-primary-text-color shadow-md rounded-md">
       {/* Left Image Section */}
       <Link
         href={instituteUrl}

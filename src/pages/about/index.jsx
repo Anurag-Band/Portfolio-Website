@@ -43,7 +43,7 @@ const About = () => {
             helping start-ups to grow their product in terms of technology
           </p>
         </div>
-        <div className="flex flex-col-reverse md:flex-row container mx-auto px-5 xl:px-28 py-5 xl:py-14 w-full font-handwriting text-xl tracking-wider break-words">
+        <div className="flex flex-col-reverse md:flex-row container mx-auto px-5 xl:px-28 py-5 xl:py-14 w-full font-handwriting text-2xl font-medium tracking-widest break-words">
           {/* Left Section */}
           <div className="w-full mt-5 md:mt-0 md:w-1/2 space-y-8">
             <h3>Let you Know About Me,</h3>
@@ -71,7 +71,7 @@ const About = () => {
                   href={siteMetadata.socials.linkedin}
                 />
               }{" "}
-              where I share all my Life Insights, or you can follow me on{" "}
+              where I share all my Life Insights, or you can check my work on{" "}
               {
                 <CustomLink
                   name={"Github"}
@@ -99,49 +99,49 @@ const About = () => {
             {/* Right Lower Section */}
             <div className="flex flex-col justify-center py-14 ml-24 lg:ml-[11.8rem] space-y-6">
               <Link
-                className="flex items-center space-x-3 hover:text-emerald-500"
+                className="flex items-center space-x-3 hover:text-teal-500"
                 href={siteMetadata.socials.github}
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                <BsGithub className="text-xl" />
+                <BsGithub className="text-lg" />
                 <span className="hidden md:block">Give Star on Github</span>
               </Link>
               <Link
-                className="flex items-center space-x-3 hover:text-emerald-500"
+                className="flex items-center space-x-3 hover:text-teal-500"
                 href={siteMetadata.socials.linkedin}
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                <BsLinkedin className="text-xl" />
+                <BsLinkedin className="text-lg" />
                 <span className="hidden md:block">Connect on Linkedin</span>
               </Link>
               <Link
-                className="flex items-center space-x-3 hover:text-emerald-500"
+                className="flex items-center space-x-3 hover:text-teal-500"
                 href={siteMetadata.socials.twitter}
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                <BsTwitter className="text-xl" />
+                <BsTwitter className="text-lg" />
                 <span className="hidden md:block">Follow on Twitter</span>
               </Link>
               <Link
-                className="flex items-center space-x-3 hover:text-emerald-500"
+                className="flex items-center space-x-3 hover:text-teal-500"
                 href={siteMetadata.socials.instagram}
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                <BsInstagram className="text-xl" />
+                <BsInstagram className="text-lg" />
                 <span className="hidden md:block">Follow on Instagram</span>
               </Link>
               <Link
-                className="flex items-center space-x-3 hover:text-emerald-500"
+                className="flex items-center space-x-3 hover:text-teal-500"
                 href={`mailto:${siteMetadata.email}`}
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                <SiGmail className="text-xl" />
-                <span className="hidden md:block">Send mail on Email</span>
+                <SiGmail className="text-lg" />
+                <span className="hidden md:block">Send me Email</span>
               </Link>
             </div>
           </div>

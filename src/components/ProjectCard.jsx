@@ -14,7 +14,7 @@ const ProjectCard = ({
   return (
     <div className="relative flex items-center z-10 w-9/12 mx-auto px-14 py-7 space-x-14 my-8">
         {/* Card Background */}
-      <div className="absolute w-10/12 h-full -z-10 top-0 right-0 bg-[#111f42] shadow-lg rounded-lg" />
+      <div className="absolute w-10/12 h-full -z-10 top-0 right-0 bg-card-bg-color border border-card-border-color shadow-lg rounded-lg" />
       {/* Left Image Section */}
       <Image
         alt={name}
