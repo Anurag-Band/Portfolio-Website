@@ -3,8 +3,19 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ['res.cloudinary.com',"images.g2crowd.com"],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "res.cloudinary.com",
+        pathname: "**",
+      },
+      {
+        protocol: "https",
+        hostname: "images.g2crowd.com",
+        pathname: "**",
+      },
+    ],
   },
-}
+};
 
 module.exports = nextConfig
