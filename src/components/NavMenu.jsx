@@ -12,7 +12,7 @@ function NavItem({ href, name }) {
       href={href}
       className={`${
         isActive ? "font-bold text-teal-400" : "font-normal text-gray-200"
-      } 'hidden md:inline-block p-1 sm:px-6 sm:py-2 rounded-full hover:text-teal-400 transition-all`}
+      } 'hidden md:inline-block text-sm p-1 sm:px-4 sm:py-1 rounded-full hover:text-teal-400 transition-all`}
     >
       <span
         className={`${

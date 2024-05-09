@@ -19,7 +19,7 @@ const ExperienceNEducation = () => {
       </Head>
       {/* Experience Section */}
       <section className="min-h-[90vh] flex flex-col bg-primary-bg-color text-primary-text-color space-y-6">
-        <div className="w-full h-[12vh] flex flex-col items-center justify-center space-y-4 mt-10">
+        <div className="w-full h-[12vh] flex flex-col items-center justify-center space-y-4 mt-20">
           <h2 className="font-mainHeading font-medium text-4xl tracking-widest">
             Work Experience
           </h2>
