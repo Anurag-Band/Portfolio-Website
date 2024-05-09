@@ -9,8 +9,10 @@ const siteMetadata = {
   email: "anuragband10@gmail.com",
   phoneNumber: "+91-9637072693",
   resumeLink:
-    "https://res.cloudinary.com/dkoxjcwg7/image/upload/v1674620936/Resume/Anurag_Band_Resume_Full_Stack_Developer_25_Jan_2023_uapx7t.pdf",
+    "https://res.cloudinary.com/dkoxjcwg7/image/upload/v1715234197/Resume/bfhpgjy4mwo7dgpvus44.pdf",
   contactFormLink: "https://getform.io/f/ab18009e-b31c-4fa8-8ded-12c9d8632519",
+  profilePicLink:
+    "https://res.cloudinary.com/dkoxjcwg7/image/upload/v1715234326/portfolio-website-assests/iapqzpd2egzenf6n2h8g.png",
   siteNavLinks: [
     {
       name: "Home",
