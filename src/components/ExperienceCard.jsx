@@ -31,10 +31,8 @@ const ExperienceCard = ({
       </Link>
       {/* Right Details Section */}
       <div className="w-3/5 flex flex-col items-start space-y-2">
-        <h3 className="font-medium text-2xl">
-          {jobTitle}{" "}
-          <span className="font-normal tracking-wider">{`(${startDate} - ${endDate})`}</span>
-        </h3>
+        <h3 className="font-medium text-2xl">{jobTitle}</h3>
+        <p className="font-normal tracking-wider">{`(${startDate} - ${endDate})`}</p>
         <ul className="space-y-2">
           {workSummery.map((summery, index) => (
             <li

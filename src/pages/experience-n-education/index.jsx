@@ -24,13 +24,13 @@ const ExperienceNEducation = () => {
             Work Experience
           </h2>
           <hr className="border border-b-4 border-b-teal-500 w-14" />
-          <p className="text-lg text-slate-400 font-medium">
+          <p className="text-lg md:text-2xl text-teal-500 font-medium">
             Here&#39;s a brief rundown of my most recent experiences.
           </p>
         </div>
         <DivideLine />
         <div className="flex flex-col container mx-auto px-5 xl:px-28 w-full">
-          {siteMetadata.experienceData.map((exp) => (
+          {siteMetadata.experienceData.toReversed().map((exp) => (
             <ExperienceCard
               key={exp.srNo}
               companyName={exp.companyName}
@@ -63,21 +63,21 @@ const ExperienceNEducation = () => {
             Education
           </h2>
           <hr className="border border-b-4 border-b-teal-500 w-14" />
-          <p className="text-lg text-slate-400 font-medium">
-            Here&#39;s a brief rundown of my most recent experiences.
+          <p className="text-lg md:text-2xl text-teal-500 font-medium">
+            Here&#39;s a brief rundown of my Education Background.
           </p>
         </div>
         <DivideLine />
         <div className="flex flex-col container mx-auto px-5 xl:px-28 w-full">
-          {siteMetadata.educationData.map((edu) => (
+          {siteMetadata.educationData.toReversed().map((edu) => (
             <EducationCard
               key={edu.srNo}
               instituteName={edu.instituteName}
               courseName={edu.courseName}
               logoUrl={edu.logoUrl}
               instituteUrl={edu.instituteUrl}
-              startYear={edu.startYear}
-              endYear={edu.endYear}
+              startDate={edu.startDate}
+              endDate={edu.endDate}
             />
           ))}
         </div>

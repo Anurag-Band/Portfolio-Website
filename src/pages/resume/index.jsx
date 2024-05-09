@@ -12,7 +12,7 @@ const Resume = () => {
           content="Anurag Band | My Resume"
         />
       </Head>
-      <main className="h-[92vh] bg-card-bg-color w-full">
+      <main className="h-[89vh] bg-card-bg-color w-full mt-20">
         <div className="container mx-auto h-full">
           <iframe
             src={siteMetadata.resumeLink}

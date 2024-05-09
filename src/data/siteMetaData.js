@@ -237,12 +237,28 @@ const siteMetadata = {
         "https://images.g2crowd.com/uploads/product/image/social_landscape/social_landscape_24a0afcd110186009cc50b8f89dfdf4a/truscholar.png",
       companyUrl: "https://www.truscholar.io",
       startDate: "Oct 2022",
-      endDate: "Present",
+      endDate: "March 2023",
       workSummery: [
         "Worked in a Scrum-based environment, on a SaaS product that helps institutions to issue Blockchain Powered Digital Certificates and Badges used by more than 300 Institutions",
         "Using MERN Stack, Solved major Bugs in production related to custom email, certificates issuance, designer tool, Validations, etc",
         "Created feature for sending Custom email using template for individual issuance of Certificates & Badges",
         "Worked on Material UI to build interactive front ends with major focus on to improve User Experience with UI/UX Strategies",
+      ],
+    },
+    {
+      srNo: 2,
+      companyName: "Edilitics",
+      jobTitle: "Full Stack Developer Intern",
+      logoUrl:
+        "https://res.cloudinary.com/dkoxjcwg7/image/upload/v1715236529/portfolio-website-assests/gywit1dybzwlhmdjyzkx.png",
+      companyUrl: "https://www.edilitics.com",
+      startDate: "March 2023",
+      endDate: "May 2023",
+      workSummery: [
+        "Worked Independently on Initial Development of product includes - Finding the suitable technologies according to requirements, project codebase setup, folder structure, etc",
+        "Refactored older application codebase to new project by following good development practices",
+        "Created Authentication flow of application includes - OTP based registration, multiple step information form registration for organization profiles and personal profiles",
+        "Created multiple layout structures for web application according to different needs of pages",
       ],
     },
   ],
@@ -254,9 +270,19 @@ const siteMetadata = {
       logoUrl:
         "https://res.cloudinary.com/dkoxjcwg7/image/upload/v1674620705/portfolio-website-assests/vidyabharti-college_xz7ewq.jpg",
       instituteUrl: "https://www.vbmv.org",
-      startYear: 2020,
-      endYear: 2023,
-      currentStatus: "Persuing",
+      startDate: 2020,
+      endDate: 2023,
+    },
+    {
+      srNo: 2,
+      instituteName: "Almabetter",
+      courseName: "Full Stack Development Course",
+      logoUrl:
+        "https://res.cloudinary.com/dkoxjcwg7/image/upload/v1715235561/portfolio-website-assests/qjdw2dxmx1w5dyb0urjk.png",
+      instituteUrl:
+        "https://www.almabetter.com/courses/full-stack-web-development",
+      startDate: "April 2022",
+      endDate: "Sept 2022",
     },
   ],
 };
