@@ -30,7 +30,7 @@ const ExperienceNEducation = () => {
         </div>
         <DivideLine />
         <div className="flex flex-col container mx-auto px-5 xl:px-28 w-full">
-          {siteMetadata.experienceData.toReversed().map((exp) => (
+          {siteMetadata.experienceData.map((exp) => (
             <ExperienceCard
               key={exp.srNo}
               companyName={exp.companyName}
@@ -69,7 +69,7 @@ const ExperienceNEducation = () => {
         </div>
         <DivideLine />
         <div className="flex flex-col container mx-auto px-5 xl:px-28 w-full">
-          {siteMetadata.educationData.toReversed().map((edu) => (
+          {siteMetadata.educationData.map((edu) => (
             <EducationCard
               key={edu.srNo}
               instituteName={edu.instituteName}
