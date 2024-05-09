@@ -9,6 +9,22 @@
   scroll-behavior: smooth;
 }
 
+::-webkit-scrollbar {
+    /* Customize the scrollbar width */
+    width: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+      /* Customize the scrollbar track */
+      background-color: #00bcd4;
+  } 
+  
+  ::-webkit-scrollbar-thumb {
+      /* Customize the scrollbar thumb */
+      background-color: #f44336;
+      border-radius: 16px;
+  }
+
 @layer components {
   .hideMenuNav {
     @apply hidden;
@@ -18,6 +34,6 @@
   }
 
   .showMenuNav > * {
-    @apply text-3xl;
+    @apply text-xl;
   }
 }

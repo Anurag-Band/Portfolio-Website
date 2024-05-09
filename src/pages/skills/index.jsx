@@ -34,11 +34,11 @@ const Skills = () => {
               className="flex flex-col w-full space-y-3"
             >
               <div className="w-full h-[2vh] flex flex-col items-center justify-center">
-                <h3 className="font-medium text-2xl tracking-widest">
+                <h3 className="font-medium text-lg sm:text-2xl tracking-widest">
                   {skill.skillCategory}
                 </h3>
               </div>
-              <div className="flex items-center justify-evenly flex-wrap space-x-8 container mx-auto w-full">
+              <div className="flex items-center justify-around flex-wrap space-x-4 sm:space-x-8 container mx-auto w-full">
                 {skill.skillList.map((skill, index) => (
                   <SkillCard
                     key={index}

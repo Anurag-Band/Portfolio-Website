@@ -1,6 +1,5 @@
 import Image from "next/image";
 import React from "react";
-import ProfilePic from "../../../public/assets/about-pic.jpg";
 import Head from "next/head";
 import Link from "next/link";
 import { BsGithub, BsInstagram, BsLinkedin, BsTwitter } from "react-icons/bs";
@@ -15,7 +14,8 @@ const CustomLink = ({ name, href }) => {
       rel="noopener noreferrer"
       target="_blank"
     >
-      {name}
+      {" "}
+      {name}{" "}
     </Link>
   );
 };
@@ -32,10 +32,10 @@ const About = () => {
       </Head>
       <section
         id="about"
-        className="min-h-[92vh] bg-primary-bg-color text-primary-text-color flex flex-col space-y-10"
+        className="h-full bg-primary-bg-color text-primary-text-color flex flex-col space-y-12 overflow-hidden"
       >
         <div className="w-full h-[12vh] flex flex-col items-center justify-center space-y-4">
-          <h2 className="font-mainHeading font-medium text-4xl tracking-widest mt-24">
+          <h2 className="font-mainHeading font-medium text-3xl tracking-widest mt-24">
             ABOUT ME
           </h2>
           <hr className="border border-b-4 border-b-teal-400 w-14" />
@@ -43,9 +43,9 @@ const About = () => {
             helping start-ups to grow their product in terms of technology
           </p>
         </div>
-        <div className="flex flex-col-reverse md:flex-row container mx-auto px-5 xl:px-28 py-5 xl:py-14 w-full font-handwriting text-xl tracking-wider break-words">
+        <div className="flex flex-col-reverse md:flex-row container mx-auto px-5 xl:px-16 py-5 w-full text-md font-medium tracking-widest break-words">
           {/* Left Section */}
-          <div className="w-full mt-5 md:mt-0 md:w-1/2 space-y-8">
+          <div className="w-full md:w-1/2 space-y-8">
             <h3>Let you Know About Me,</h3>
             <p>
               I am Anurag, a Full Stack Developer, creative coder, and
@@ -54,24 +54,32 @@ const About = () => {
               pixel-perfect websites or applications that run blazing fast.
             </p>
             <p>
-              I&#39;m currently working as a full stack developer intern at{" "}
+              I have preveously worked as a full stack developer intern at
               {
                 <CustomLink
                   name={"TruScholar"}
                   href={"https://truscholar.io"}
                 />
-              }{" "}
-              where I help developers to solve Bugs, Implement Features
+              }
+              &
+              {
+                <CustomLink
+                  name={"Edilitics"}
+                  href={"https://www.edilitics.com/"}
+                />
+              }
+              where I worked with Co-Founders to convert their ideas into
+              production grade application
             </p>
             <p>
-              You can Connect with me on{" "}
+              You can Connect with me on
               {
                 <CustomLink
                   name={"Linkedin"}
                   href={siteMetadata.socials.linkedin}
                 />
-              }{" "}
-              where I share all my Life Insights, or you can follow me on{" "}
+              }
+              where I share all my Life Insights, or you can check my work on
               {
                 <CustomLink
                   name={"Github"}
@@ -90,58 +98,58 @@ const About = () => {
           <div className="w-full md:w-1/2 flex flex-row md:flex-col">
             {/* Right Upper Section */}
             <Image
-              src={ProfilePic}
+              src={siteMetadata.profilePicLink}
               alt="Anurag Band"
               width={300}
               height={300}
               className="rounded-lg lg:ml-48"
             />
             {/* Right Lower Section */}
-            <div className="flex flex-col justify-center py-14 ml-24 lg:ml-[11.8rem] space-y-6">
+            <div className="flex flex-col justify-center py-14 ml-24 lg:ml-[11.8rem] space-y-3">
               <Link
-                className="flex items-center space-x-3 hover:text-emerald-500"
+                className="flex items-center space-x-3 hover:text-teal-500"
                 href={siteMetadata.socials.github}
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                <BsGithub className="text-xl" />
+                <BsGithub className="text-lg" />
                 <span className="hidden md:block">Give Star on Github</span>
               </Link>
               <Link
-                className="flex items-center space-x-3 hover:text-emerald-500"
+                className="flex items-center space-x-3 hover:text-teal-500"
                 href={siteMetadata.socials.linkedin}
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                <BsLinkedin className="text-xl" />
+                <BsLinkedin className="text-lg" />
                 <span className="hidden md:block">Connect on Linkedin</span>
               </Link>
               <Link
-                className="flex items-center space-x-3 hover:text-emerald-500"
+                className="flex items-center space-x-3 hover:text-teal-500"
                 href={siteMetadata.socials.twitter}
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                <BsTwitter className="text-xl" />
+                <BsTwitter className="text-lg" />
                 <span className="hidden md:block">Follow on Twitter</span>
               </Link>
               <Link
-                className="flex items-center space-x-3 hover:text-emerald-500"
+                className="flex items-center space-x-3 hover:text-teal-500"
                 href={siteMetadata.socials.instagram}
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                <BsInstagram className="text-xl" />
+                <BsInstagram className="text-lg" />
                 <span className="hidden md:block">Follow on Instagram</span>
               </Link>
               <Link
-                className="flex items-center space-x-3 hover:text-emerald-500"
+                className="flex items-center space-x-3 hover:text-teal-500"
                 href={`mailto:${siteMetadata.email}`}
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                <SiGmail className="text-xl" />
-                <span className="hidden md:block">Send mail on Email</span>
+                <SiGmail className="text-lg" />
+                <span className="hidden md:block">Send me Email</span>
               </Link>
             </div>
           </div>
