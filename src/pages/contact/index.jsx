@@ -22,7 +22,7 @@ const Contact = () => {
         id="contact"
         className="w-full bg-primary-bg-color text-primary-text-color mt-16"
       >
-        <div className="w-8/12 m-auto bg-card-bg-color border border-card-border-color rounded-sm shadow-sm shadow-card-border-color px-2 py-3">
+        <div className="w-[90%] sm:w-8/12 m-auto bg-card-bg-color border border-card-border-color rounded-sm shadow-sm shadow-card-border-color px-2 py-3">
           <div className="flex items-center flex-col space-y-1">
             <h2 className="font-mainHeading font-medium text-3xl tracking-widest">
               CONTACT ME
